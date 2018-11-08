@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankServiceLibrary", "BankServiceLibrary\BankServiceLibrary.csproj", "{3CF63B6E-701C-400C-9379-4E75D26DB254}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBank", "ConsoleBank\ConsoleBank.csproj", "{A16B94B7-D22E-4C76-A4C4-1A740FB47F9A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3CF63B6E-701C-400C-9379-4E75D26DB254} = {3CF63B6E-701C-400C-9379-4E75D26DB254}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{3CF63B6E-701C-400C-9379-4E75D26DB254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CF63B6E-701C-400C-9379-4E75D26DB254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CF63B6E-701C-400C-9379-4E75D26DB254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16B94B7-D22E-4C76-A4C4-1A740FB47F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16B94B7-D22E-4C76-A4C4-1A740FB47F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16B94B7-D22E-4C76-A4C4-1A740FB47F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16B94B7-D22E-4C76-A4C4-1A740FB47F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
