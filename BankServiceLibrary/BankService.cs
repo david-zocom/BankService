@@ -9,6 +9,15 @@
 			balance += amount;
 		}
 
+		public AccountInfo GetAccountInfo()
+		{
+			return new AccountInfo
+			{
+				Balance = 72M,
+				OwnerName = "David"
+			};
+		}
+
 		public decimal GetBalance()
 		{
 			return balance;

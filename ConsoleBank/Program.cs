@@ -16,6 +16,10 @@ namespace ConsoleBank
 				proxy.Deposit(400);
 				value = proxy.GetBalance();
 				Console.WriteLine("We deposited some money, and the new balance is " + value);
+
+				AccountInfo info = proxy.GetAccountInfo();
+				Console.WriteLine("Account is owned by " + info.OwnerName
+					+ " and has " + info.Balance + " money.");
 			}
 
 			Console.WriteLine("Press any key to exit");
